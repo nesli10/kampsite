@@ -1,0 +1,79 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  padding-top: 1.8%;
+  margin: 0;
+  background-color: #004080;
+  font-family: arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.title-bar {
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+
+.wrap {
+  background-color: #ffffff;
+  padding: 2%;
+  width: 25%;
+  min-width:350px;
+  margin: 0 auto;
+  
+  box-shadow: 0 0 5px #ccc;
+  border: 1px solid #fff;
+}
+
+input {
+  width: 90%;
+  margin-bottom: 10px;
+  padding: 5%;
+ 
+  border: 1px solid #efefef;
+  font-size: 15px;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px #9ecaed;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.btn {
+  width: 100%;
+  padding: 5%;
+ 
+  border: 1px solid #45b3e7;
+  font-size: 15px;
+  background-color: #45b3e7;
+  color: #fff;
+  margin-top: 25px;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.btn:hover {
+  width: 100%;
+  padding: 5%;
+
+  border: 1px solid #32CD32;
+  font-size: 15px;
+  background-color: #32CD32;
+  color: #fff;
+  margin-top: 25px;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
